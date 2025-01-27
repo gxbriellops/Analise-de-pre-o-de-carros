@@ -20,15 +20,15 @@ Este projeto apresenta uma análise exploratória de dados (EDA) aplicada a um c
    - **Estatísticas Descritivas**: Média de preço dos carros: **52.638 dólares**, com maior concentração entre **30 e 80 mil dólares**.  
    - **Boxplot e Histograma**: A distribuição dos preços não apresenta outliers extremos.  
    - **Distribuição de Combustíveis e Condições**: A quantidade de carros com diferentes tipos de combustíveis e condições está bem equilibrada.  
-   - **Marcas mais comuns**: Toyota, Audi, BMW, Mercedes e Honda lideram em frequência no dataset.
+   - **Marcas mais comuns**: Toyota, Audi, BMW, Mercedes e Honda lideram em frequência no dataset. (porem o restante do dataset é bem equilibrado nesse quesito)
 
 4. **Análise Bivariada**  
-   - **Correlação Ano x Preço**: Correlação fraca e negativa (-0.036), indicando que o ano não é um fator determinante para o preço.  
-   - **Média de Preços por Condição**: Carros seminovos apresentam preços ligeiramente superiores aos novos, o que pode ser explicado por fatores como acessórios ou modelos premium.
+   - **Correlação Ano x Preço**: Correlação fraca e negativa (-0.036), indicando que o ano não é um fator determinante para o preço. (o que é bem estranho considerando o cnário do Brasil.)
+   - **Média de Preços por Condição**: Carros seminovos apresentam preços ligeiramente superiores aos novos, o que pode ser explicado por fatores como acessórios ou modelos premium. (o que mais uma vez parece ser bem contraintuitivo)
 
 5. **Principais Insights**  
    - O preço dos carros é amplamente distribuído, mas concentra-se em uma faixa específica.  
-   - A correlação entre o ano e o preço é fraca, sugerindo que outros fatores, como marca ou tecnologia, podem influenciar mais.  
+   - A correlação entre o ano e o preço é fraca, sugerindo que outros fatores, como marca ou tecnologia, podem influenciar mais. (ou o dataset tem uma qualidade baixa de dados)
    - A relação entre preço e condição sugere peculiaridades que podem ser investigadas mais a fundo, como preferências do mercado ou especificações dos veículos.
 
 ---
